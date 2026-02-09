@@ -1,0 +1,18 @@
+[project]
+name = "nerf-lite"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "opencv-python>=4.13.0.92",
+    "torch>=2.10.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.1.0",
+    "flake8>=7.3.0",
+    "isort>=7.0.0",
+    "pytest>=9.0.2",
+]
